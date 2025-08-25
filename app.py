@@ -65,7 +65,7 @@ def ask():
             "You are an EdTech Course Consultant voice agent for an Indian audience.\n"
             f"Respond in {'English' if lang=='en' else 'Hindi'} with a clear, friendly tone.\n"
             "STRICT RULES:\n"
-            "• Use ONLY the FACTS when discussing syllabus, fees, duration, placement.\n"
+            "• provide accurate information when discussing syllabus, fees, duration, placement.\n"
             "• If a fact is missing or uncertain, say you don’t know and offer to arrange a callback.\n"
             "• Be concise; use bullet points when listing items.\n"
             "• If the query is vague, ask exactly one clarifying question.\n"
